@@ -1,15 +1,7 @@
 import * as Sharing from "expo-sharing";
 import { StatusBar } from "expo-status-bar";
 import { ComponentRef, useRef, useState } from "react";
-import {
-  Alert,
-  Button,
-  Dimensions,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import {Alert,Button,Dimensions,StyleSheet,Text,TouchableOpacity,View,} from "react-native";
 import { captureRef } from "react-native-view-shot";
 
 export default function App() {
